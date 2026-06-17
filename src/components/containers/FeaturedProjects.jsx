@@ -22,7 +22,7 @@ function FeaturedProjects() {
       name: "My Portfolio",
       description:
         "A personal portfolio website showcasing my projects, skills, certifications, and experience as a Full Stack Developer. Features a responsive design, dark/light mode toggle, and an AI-powered chatbot built with Groq API that answers questions about me in real time.",
-      link: "",
+      link:  "eyevan02.vercel.app",
       code: "",
       image: PortfolioImg,
       tech: ["Groq AI", "JavaScript", "React", "Vite", "Tailwind CSS"],
