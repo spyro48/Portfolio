@@ -1,4 +1,4 @@
-# Ehrvayn Rayven P. Olivera // Portfolio
+# Lance Ivan San Jose // Portfolio
 
 A personal portfolio website built with React, Vite, and Tailwind CSS. Features a clean, responsive design with dark mode support and an AI-powered chatbot.
 
@@ -10,7 +10,7 @@ A personal portfolio website built with React, Vite, and Tailwind CSS. Features 
 
 ## 🌐 Live Demo
 
-[ehrvayn.vercel.app](https://ehrvayn-portfolio.vercel.app)
+https://eyevan02.vercel.app/
 
 ## 📄 License
 
