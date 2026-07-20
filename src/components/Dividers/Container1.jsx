@@ -50,7 +50,7 @@ function Container1() {
                   <img
                     src={darkMode ? DarkprofilePic : LightprofilePic}
                     alt="Profile"
-                    className="relative h-56 w-56 sm:h-64 sm:w-69 md:h-80 md:w-55 lg:h-100 lg:w-75 object-cover rounded-md transition-opacity duration-300 group-hover:opacity-0"
+                    className="relative h-56 w-56 sm:h-64 sm:w-69 md:h-80 md:w-55 lg:h-100 lg:w-75 object-cover object-top rounded-md transition-opacity duration-300 group-hover:opacity-0"
                   />
 
                   <video
