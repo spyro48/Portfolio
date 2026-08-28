@@ -3,12 +3,14 @@ import Container1 from "./components/Dividers/Container1";
 import Container2 from "./components/Dividers/Container2";
 import Container3 from "./components/Dividers/Container3";
 import Container4 from "./components/Dividers/Container4";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDarkMode } from "./context/DarkmodeProvider";
 import ChatBot from "./components/ChatBot";
+import LoadingScreen from "./components/LoadingScreen";
 
 function App() {
   const { darkMode } = useDarkMode();
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
@@ -20,6 +22,7 @@ function App() {
 
   return (
     <>
+      {loading && <LoadingScreen onDone={() => setLoading(false)} />}
       <div
         className={`${darkMode ? "bg-black text-white" : "bg-white"} transition-colors duration-500 w-full min-h-screen flex flex-col gap-5 px-1 md:px-[100px] lg:px-[130px] xl:px-[150px] py-6 md:py-8 lg:py-10`}
       >
